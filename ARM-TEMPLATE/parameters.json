@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+
+  "parameters": {
+    "webAppName": {
+      "value": "nexora-web-84721"
+    },
+    "appServicePlanName": {
+      "value": "NEXORA-Plan"
+    },
+    "location": {
+      "value": "southafricanorth"
+    },
+    "sku": {
+      "value": "B1"
+    },
+    "repoUrl": {
+      "value": "https://github.com/ufuomaorieruo/NEXORA.git"
+    }
+  }
+}
